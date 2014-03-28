@@ -4,7 +4,7 @@ import sys
 import os
 import glob # set glob module
 
-#read dir
+#read dir 读取指定文件夹下满足要求的文件
 def read_dir(dir_name):
     file_list=glob.glob(dir_name)
     dm={}
